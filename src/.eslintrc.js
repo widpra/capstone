@@ -5,6 +5,9 @@ module.exports = {
     node: true,
     jquery: true
   },
+  globals: {
+    module: 'readonly',
+  },
   extends: 'standard',
   overrides: [
   ],
